@@ -90,7 +90,7 @@
   }
 
   /*!
-   * GSAP 3.14.0
+   * GSAP 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -4221,7 +4221,7 @@
       }
     }
   }, _buildModifierPlugin("roundProps", _roundModifier), _buildModifierPlugin("modifiers"), _buildModifierPlugin("snap", snap)) || _gsap;
-  Tween.version = Timeline.version = gsap.version = "3.14.0";
+  Tween.version = Timeline.version = gsap.version = "3.14.1";
   _coreReady = 1;
   _windowExists() && _wake();
   var Power0 = _easeMap.Power0,
@@ -7049,7 +7049,7 @@
   }
 
   /*!
-   * CustomEase 3.14.0
+   * CustomEase 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -7398,7 +7398,7 @@
 
     return CustomEase;
   }();
-  CustomEase.version = "3.14.0";
+  CustomEase.version = "3.14.1";
   CustomEase.headless = true;
   _getGSAP() && gsap$1.registerPlugin(CustomEase);
 
@@ -10366,11 +10366,11 @@
   });
 
   Draggable.zIndex = 1000;
-  Draggable.version = "3.14.0";
+  Draggable.version = "3.14.1";
   _getGSAP$1() && gsap$2.registerPlugin(Draggable);
 
   /*!
-   * CSSRulePlugin 3.14.0
+   * CSSRulePlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -10415,7 +10415,7 @@
   };
 
   var CSSRulePlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "cssRule",
     init: function init(target, value, tween, index, targets) {
       if (!_checkRegister() || typeof target.cssText === "undefined") {
@@ -10497,7 +10497,7 @@
   _getGSAP$2() && gsap$3.registerPlugin(CSSRulePlugin);
 
   /*!
-   * EaselPlugin 3.14.0
+   * EaselPlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -10765,7 +10765,7 @@
   };
 
   var EaselPlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "easel",
     init: function init(target, value, tween, index, targets) {
       if (!_coreInitted$4) {
@@ -10835,7 +10835,7 @@
   _getGSAP$3() && gsap$4.registerPlugin(EaselPlugin);
 
   /*!
-   * EasePack 3.14.0
+   * EasePack 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -11030,13 +11030,13 @@
 
   for (var p in EasePack) {
     EasePack[p].register = _initCore$5;
-    EasePack[p].version = "3.14.0";
+    EasePack[p].version = "3.14.1";
   }
 
   _getGSAP$4() && gsap$5.registerPlugin(SlowMo);
 
   /*!
-   * Flip 3.14.0
+   * Flip 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -12521,11 +12521,11 @@
 
     return Flip;
   }();
-  Flip.version = "3.14.0";
+  Flip.version = "3.14.1";
   typeof window !== "undefined" && window.gsap && window.gsap.registerPlugin(Flip);
 
   /*!
-   * MotionPathPlugin 3.14.0
+   * MotionPathPlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -12720,7 +12720,7 @@
   };
 
   var MotionPathPlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "motionPath",
     register: function register(core, Plugin, propTween) {
       gsap$7 = core;
@@ -12868,7 +12868,7 @@
   _getGSAP$5() && gsap$7.registerPlugin(MotionPathPlugin);
 
   /*!
-   * Observer 3.14.0
+   * Observer 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -13528,7 +13528,7 @@
 
     return Observer;
   }();
-  Observer.version = "3.14.0";
+  Observer.version = "3.14.1";
 
   Observer.create = function (vars) {
     return new Observer(vars);
@@ -13549,7 +13549,7 @@
   _getGSAP$6() && gsap$8.registerPlugin(Observer);
 
   /*!
-   * PixiPlugin 3.14.0
+   * PixiPlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -13925,7 +13925,7 @@
   }
 
   var PixiPlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "pixi",
     register: function register(core, Plugin, propTween) {
       gsap$9 = core;
@@ -14011,7 +14011,7 @@
   _getGSAP$7() && gsap$9.registerPlugin(PixiPlugin);
 
   /*!
-   * ScrollToPlugin 3.14.0
+   * ScrollToPlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -14133,7 +14133,7 @@
   };
 
   var ScrollToPlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "scrollTo",
     rawVars: 1,
     register: function register(core) {
@@ -14284,7 +14284,7 @@
   _getGSAP$8() && gsap$a.registerPlugin(ScrollToPlugin);
 
   /*!
-   * ScrollTrigger 3.14.0
+   * ScrollTrigger 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -16393,7 +16393,7 @@
 
     return ScrollTrigger;
   }();
-  ScrollTrigger$2.version = "3.14.0";
+  ScrollTrigger$2.version = "3.14.1";
 
   ScrollTrigger$2.saveStyles = function (targets) {
     return targets ? _toArray$4(targets).forEach(function (target) {
@@ -16929,7 +16929,7 @@
   }
 
   /*!
-   * TextPlugin 3.14.0
+   * TextPlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -16944,7 +16944,7 @@
   };
 
   var TextPlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "text",
     init: function init(target, value, tween) {
       typeof value !== "object" && (value = {
@@ -17089,7 +17089,7 @@
   _getGSAP$a() && gsap$c.registerPlugin(TextPlugin);
 
   /*!
-   * DrawSVGPlugin 3.14.0
+   * DrawSVGPlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -17278,7 +17278,7 @@
   };
 
   var DrawSVGPlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "drawSVG",
     register: function register(core) {
       gsap$d = core;
@@ -17387,7 +17387,7 @@
   _getGSAP$b() && gsap$d.registerPlugin(DrawSVGPlugin);
 
   /*!
-   * Physics2DPlugin 3.14.0
+   * Physics2DPlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -17438,7 +17438,7 @@
   };
 
   var Physics2DPlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "physics2D",
     register: _initCore$a,
     init: function init(target, value, tween) {
@@ -17542,7 +17542,7 @@
   _getGSAP$c() && gsap$e.registerPlugin(Physics2DPlugin);
 
   /*!
-   * PhysicsPropsPlugin 3.14.0
+   * PhysicsPropsPlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -17594,7 +17594,7 @@
   };
 
   var PhysicsPropsPlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "physicsProps",
     register: _initCore$b,
     init: function init(target, value, tween) {
@@ -17696,7 +17696,7 @@
   _getGSAP$d() && gsap$f.registerPlugin(PhysicsPropsPlugin);
 
   /*!
-   * ScrambleTextPlugin 3.14.0
+   * ScrambleTextPlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -17757,7 +17757,7 @@
   };
 
   var ScrambleTextPlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "scrambleText",
     register: function register(core, Plugin, propTween) {
       gsap$g = core;
@@ -17941,7 +17941,7 @@
   _getGSAP$e() && gsap$g.registerPlugin(ScrambleTextPlugin);
 
   /*!
-   * CustomBounce 3.14.0
+   * CustomBounce 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -18094,10 +18094,10 @@
     return CustomBounce;
   }();
   _getGSAP$f() && gsap$h.registerPlugin(CustomBounce);
-  CustomBounce.version = "3.14.0";
+  CustomBounce.version = "3.14.1";
 
   /*!
-   * CustomWiggle 3.14.0
+   * CustomWiggle 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -18249,10 +18249,10 @@
     return CustomWiggle;
   }();
   _getGSAP$g() && gsap$i.registerPlugin(CustomWiggle);
-  CustomWiggle.version = "3.14.0";
+  CustomWiggle.version = "3.14.1";
 
   /*!
-   * GSDevTools 3.14.0
+   * GSDevTools 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -19700,7 +19700,7 @@
     _context$4(this);
   };
 
-  GSDevTools.version = "3.14.0";
+  GSDevTools.version = "3.14.1";
   GSDevTools.globalRecordingTime = 2;
 
   GSDevTools.getById = function (id) {
@@ -19962,7 +19962,7 @@
   _getGSAP$i() && gsap$k.registerPlugin(VelocityTracker);
 
   /*!
-   * InertiaPlugin 3.14.0
+   * InertiaPlugin 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -20303,7 +20303,7 @@
   };
 
   var InertiaPlugin$1 = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "inertia",
     register: function register(core) {
       gsap$l = core;
@@ -21197,7 +21197,7 @@
   };
 
   var MorphSVGPlugin = {
-    version: "3.14.0",
+    version: "3.14.1",
     name: "morphSVG",
     rawVars: 1,
     register: function register(core, Plugin) {
@@ -23270,11 +23270,11 @@
     };
   };
 
-  PathEditor.version = "3.14.0";
+  PathEditor.version = "3.14.1";
   PathEditor.register = _initCore$j;
 
   /*!
-   * MotionPathHelper 3.14.0
+   * MotionPathHelper 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -23642,10 +23642,10 @@
     return PathEditor.create(path, vars);
   };
 
-  MotionPathHelper.version = "3.14.0";
+  MotionPathHelper.version = "3.14.1";
 
   /*!
-   * ScrollSmoother 3.14.0
+   * ScrollSmoother 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2008-2025, GreenSock. All rights reserved.
@@ -24577,7 +24577,7 @@
 
     return ScrollSmoother;
   }();
-  ScrollSmoother.version = "3.14.0";
+  ScrollSmoother.version = "3.14.1";
 
   ScrollSmoother.create = function (vars) {
     return _mainInstance && vars && _mainInstance.content() === _toArray$9(vars.content)[0] ? _mainInstance : new ScrollSmoother(vars);
@@ -24590,7 +24590,7 @@
   _getGSAP$l() && gsap$p.registerPlugin(ScrollSmoother);
 
   /*!
-   * SplitText 3.14.0
+   * SplitText 3.14.1
    * https://gsap.com
    *
    * @license Copyright 2025, GreenSock. All rights reserved. Subject to the terms at https://gsap.com/standard-license.
@@ -25011,7 +25011,7 @@
                   } else {
                     curBounds = allBounds[i];
 
-                    if (i && curBounds.top > lastBounds.top && curBounds.left <= lastBounds.left + lastBounds.width) {
+                    if (i && curBounds.top > lastBounds.top && curBounds.left < lastBounds.left + lastBounds.width - 1) {
                       wrapLine(lineStartIndex, i);
                       lineStartIndex = i;
                     }
@@ -25150,7 +25150,7 @@
     return _SplitText;
   }();
 
-  _SplitText.version = "3.14.0";
+  _SplitText.version = "3.14.1";
   var SplitText = _SplitText;
 
   var gsapWithCSS = gsap.registerPlugin(CSSPlugin) || gsap,

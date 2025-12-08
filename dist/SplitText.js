@@ -1,5 +1,5 @@
 /*!
- * SplitText 3.14.0
+ * SplitText 3.14.1
  * https://gsap.com
  *
  * @license Copyright 2025, GreenSock. All rights reserved. Subject to the terms at https://gsap.com/standard-license.
@@ -221,7 +221,7 @@
 	                  lastBounds = _findNextValidBounds(allBounds, i);
 	                } else {
 	                  curBounds = allBounds[i];
-	                  if (i && curBounds.top > lastBounds.top && curBounds.left <= lastBounds.left + lastBounds.width) {
+	                  if (i && curBounds.top > lastBounds.top && curBounds.left < lastBounds.left + lastBounds.width - 1) {
 	                    wrapLine(lineStartIndex, i);
 	                    lineStartIndex = i;
 	                  }
@@ -323,7 +323,7 @@
 	    }
 	  }
 	};
-	_SplitText.version = "3.14.0";
+	_SplitText.version = "3.14.1";
 	let SplitText = _SplitText;
 
 	exports.SplitText = SplitText;

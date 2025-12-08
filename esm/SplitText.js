@@ -5,7 +5,7 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
 /*!
- * SplitText 3.14.0
+ * SplitText 3.14.1
  * https://gsap.com
  *
  * @license Copyright 2025, GreenSock. All rights reserved. Subject to the terms at https://gsap.com/standard-license.
@@ -426,7 +426,7 @@ var _SplitText = /*#__PURE__*/function () {
                 } else {
                   curBounds = allBounds[i];
 
-                  if (i && curBounds.top > lastBounds.top && curBounds.left <= lastBounds.left + lastBounds.width) {
+                  if (i && curBounds.top > lastBounds.top && curBounds.left < lastBounds.left + lastBounds.width - 1) {
                     wrapLine(lineStartIndex, i);
                     lineStartIndex = i;
                   }
@@ -565,6 +565,6 @@ var _SplitText = /*#__PURE__*/function () {
   return _SplitText;
 }();
 
-_SplitText.version = "3.14.0";
+_SplitText.version = "3.14.1";
 var SplitText = _SplitText;
 export { SplitText, SplitText as default };
